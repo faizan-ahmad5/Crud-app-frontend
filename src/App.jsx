@@ -71,7 +71,7 @@ export default function App() {
       await axios.delete(`${API_URL}/${users[index].id}`);
       fetchUsers();
     } catch (error) {
-      console.error('Error deleting user:', error);
+      console.error('Error deleting user:',  error);
     }
   };
 
